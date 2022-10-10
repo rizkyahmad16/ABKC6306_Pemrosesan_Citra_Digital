@@ -13,9 +13,11 @@ Metode umum untuk menghasilkan gambar halftoning anatar lain :
 Patterning adalah yang paling sederhana untuk menghasilkan gambar halftoning digital. Ini menghasilkan gambar yang memiliki resolusi spasial lebih tinggi daripada gambar sumber. Jumlah sel halftone citra keluaran sama dengan jumlah piksel citra sumber. Namun, setiap sel halftone dibagi lagi menjadi kotak 4x4. Setiap nilai piksel input diwakili oleh jumlah kotak terisi yang berbeda dalam sel halftone. Karena kisi 4x4 hanya dapat mewakili 17 tingkat intensitas yang berbeda, gambar sumber harus dikuantisasi.
 
 Gambar dibawah ini menunjukkan matriks Patterning rekursif Rylander
+
 ![gambar](/Tugas%203/gambar/2.1.png)
 
 Gambar dibawah ini merupakan contoh operasi Patterning
+
 ![gambar](/Tugas%203/gambar/2.2.png)
 
 Gambar dibawah ini merupakan contoh gambar halftoning digital yang dihasilkan dari PAINTER menggunakan teknik Patterning
