@@ -38,6 +38,7 @@ Gambar dibawah ini menunjukkan contoh operasi dithering
 ![gambar](/Tugas%203/gambar/3.1.png)
 
 Gambar dibawah ini merupakan contoh penerapan operasi dithering
+
 ![gambar](/Tugas%203/gambar/3.2.png)
 
 Gambar Citra Asli
