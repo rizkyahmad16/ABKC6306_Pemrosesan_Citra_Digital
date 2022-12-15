@@ -97,6 +97,6 @@ Bila nilai T = 145 diterapkan untuk citra pada Gambar dibawah di atas maka diper
 
 Hasil Greyscale
 
->- Mengapa Pola 4x4 hasilnya kurang bagus dari 16x16?
+- Mengapa Pola 4x4 hasilnya kurang bagus dari 16x16?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kenapa 4x4 tidak sebagus 16x16, Karna Citra yang dihasilkan dari penggunaaan matriks 4x4 memiliki pola halftone yang kurang dibandingkan dengan citra yang diproses menggunakan matriks dithering 16x16. Jumlah piksel dari gambar atau kualitas itu sudah diperkecil jadi hasilnya tidak sebagus 16x16 yang dimana pikselnya lebih banyak.
