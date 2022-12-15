@@ -1,6 +1,7 @@
 ## __Tugas 3__ : mengimplementasikan method grayscale lightness method, average method, dan Luminousity method serta menjelaskan tentang halftoning patterning, dithering, bagaimana menentukan pola patterning, dan menentukan tresholding dithering
 
 Soure code:
+
 ![gambar](/Tugas%203/gambar/1.jpeg)
 
 > Mencoba 3 Rumus :
