@@ -4,7 +4,7 @@ Soure code:
 
 ![gambar](/Tugas%203/gambar/1.jpeg)
 
->- Mencoba 3 Rumus :
+- Mencoba 3 Rumus :
 1. Lightness Method
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lightness Method rumusnya adalah minimal RGB ditambah dengan maximum RGB lalu dibagia dua, dengan hasil gambar output seperti dibawah. Untuk kejelasan gambar hampir beda dengan yang aslinya dikarnakan metode ini menghadirkan kelemahan yang sangat serius karena satu komponen RGB tidak digunakan. Ini jelas merupakan masalah karena jumlah cahaya yang dilihat mata kita bergantung pada ketiga warna dasar.
@@ -43,7 +43,7 @@ Matriks pola rekursif Rylander
 
 Operasi Pola
 
->- Contoh Pattering
+- Contoh Pattering
 
 ![gambar](/Tugas%203/gambar/8.jpg)
 
@@ -61,7 +61,7 @@ Operasi Pola
 
 ## __Menentukan Pola Yang Ada Pada Patterning dan Dithering__
 
->- ### __Patterning__
+- ### __Patterning__
 
 Bagaimana menentukan pola pada patterning? Pertama-tama kita bisa mengetahui secara langsung dengan menghitung banyaknya font biner atau pattern penggantinya kemudian ditambahkan 1.
 
@@ -71,9 +71,9 @@ Jadi Kesimpulanya pola yang ada patterning tidah boleh sama atau pola yang sudah
 
 ![gambar](/Tugas%203/gambar/11.jpg)
 
->- __Difthering__
+- __Difthering__
 
->- __Matriks Tresshold__
+- __Matriks Tresshold__
 
 Threshold dilakukan dengan mempertegas citra dengan cara mengubah citra hasil yang memiliki derajat keabuan 255 (8 bit), menjadi hanya dua buah yaitu hitam dan putih. Hal yang perlu diperhatikan pada proses threshold adalah memilih sebuah nilai threshold (T) dimana piksel yang bernilai dibawah nilai threshold akan diset menjadi hitam dan piksel yang bernilai diatas nilai threshold akan diset menjadi putih. Umumnya nilai T dihitung dengan menggunakan persamaan:
 
