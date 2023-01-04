@@ -1,6 +1,6 @@
 ## __Tugas 5 :__ membuat Pseudo Code Patterning, Ditthering, Bit Plane Slacing, dan Histogram equalization
 
-### __Patterning__
+### _Patterning_
 - Menentukan banyak pola patterning yang akan digunakan, jika matriks yang digunakan adalah 3x3 maka jumlah pola pattern yang dihasilkan adalah sebanyak 10. Jika matriks yang digunakan adalah 4x4 maka jumlah pola yang dihasilkan sebanyak 17. Rumusnya = ukuran matriks ditambah 1.
 
 - Menghitung persebaran range nilai dengan mengoperasikan 255 dibagi banyaknya jumlah pola pattern.
