@@ -1,4 +1,4 @@
-## __Tugas 6 :__ Image Enhanchement, spasial domain frekuensi, dan rumus spasial domain
+## __Tugas 7 :__ Image Enhanchement, spasial domain frekuensi, dan rumus spasial domain
 
 ### __Image Enhanchment__
 
