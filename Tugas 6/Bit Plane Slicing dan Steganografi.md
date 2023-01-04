@@ -1,4 +1,4 @@
-## __Tugas 5 :__ Memasukkan nama dan nim / gambar 1 dan gambar 2 kedalam LSB Gambar atau lapisan layar yang paling tidak menyerupai (Stegonography)
+## __Tugas 6 :__ Memasukkan nama dan nim / gambar 1 dan gambar 2 kedalam LSB Gambar atau lapisan layar yang paling tidak menyerupai (Stegonography)
 
 ## __Bit Plane Slicing dan Steganografi__
 
@@ -8,33 +8,33 @@ Bit-Plane Slicing merupakan metode yang digunakan untuk melihat kontribusi atau 
 
 Misalnya, sebuah piksel dengan intesnsitas 245(desimal) bila dijadikan biner adalah 11110101. Dengan nilai LSB (Least Significant Bit) berada paling bawah kanan, dan sebaliknya untuk MSB (Most Sigificant Bit). Perhatikan gambar dibawah yang merupakan ilustrasi dari bit-plane sicing pada piksel citra.
 
-![gambar](/Tugas%205/gambar/1.png)
+![gambar](/Tugas%206/gambar/1.png)
 
 Untuk memahami metode ini, perhatikan contoh berikut !
 
 Misalkan diberikan citra grayscale berukuran 3x3 dengan nilai matriks sebagai berikut :
 
-![gambar](/Tugas%205/gambar/2.%20matriks.png)
+![gambar](/Tugas%206/gambar/2.%20matriks.png)
 
 Ubah nilai pada tiap elemen matriks di atas menjadi bilangan biner 8 digit
 
-![gambar](/Tugas%205/gambar/3.%20mbiner.png)
+![gambar](/Tugas%206/gambar/3.%20mbiner.png)
 
 Nah yang akan kita lakukan sekarang adalah secara berurutan mengambil bit-bit untuktuap-tiap intensitas dan dimasukkan kedalam matriks baru. Sehingga dapat ditebak bahwa kita akan mendapatkan 8 buah matriks baru yang berisi bit-bit dari urutan yang sama.
 
-![gambar](/Tugas%205/gambar/4.%20bit-plane.png)
+![gambar](/Tugas%206/gambar/4.%20bit-plane.png)
 
 1. Mengubah Gambar ukuran 512 x 512 ke grayscale dan buat bit-plane slicing
 
-![gambar](/Tugas%205/gambar/5.%20house.jpg)
+![gambar](/Tugas%206/gambar/5.%20house.jpg)
 
 Gambar Asli
 
-![gambar](/Tugas%205/gambar/6.%20code_bit-plane2.png)
+![gambar](/Tugas%206/gambar/6.%20code_bit-plane2.png)
 
 Code Bit Plane Slicing
 
-![gambar](/Tugas%205/gambar/7.%20bit-plane2.png)
+![gambar](/Tugas%206/gambar/7.%20bit-plane2.png)
 
 Bit Plane Slicing
 
@@ -42,17 +42,17 @@ Dapat dilihat pada output gambar, semakin tinggi layer bit-plane slicing maka ak
 
 2. Gabung Dua Gambar Ubah ke Grayscale dan Buat Bit-Plane Slicing, Bandingkan Dengan Bit-Plane 1
 
-![gambar](/Tugas%205/gambar/8.%20show_gambar.png)
+![gambar](/Tugas%206/gambar/8.%20show_gambar.png)
 
-![gambar](/Tugas%205/gambar/9.%20show_gambar3.png)
+![gambar](/Tugas%206/gambar/9.%20show_gambar3.png)
 
 Hasil Penggabungan Gambar 1 dengan gambar 2
 
-![gambar](/Tugas%205/gambar/10.%20code_bit-plane3.png)
+![gambar](/Tugas%206/gambar/10.%20code_bit-plane3.png)
 
 Code Bit Plane Slicing
 
-![gambar](/Tugas%205/gambar/11.%20bit_plane_gabung.png)
+![gambar](/Tugas%206/gambar/11.%20bit_plane_gabung.png)
 
 Hasil Penggabungan Gambar 1 dan gambar 2
 
@@ -64,7 +64,7 @@ Steganografi adalah sebuah metode dalam pemrosesan citra digital untuk menyembun
 
 Data yang disembunyikan dapat berupa:
 
-![gambar](/Tugas%205/gambar/12.%20cover_stego.png)
+![gambar](/Tugas%206/gambar/12.%20cover_stego.png)
  - Gambar
 
  - Teks
@@ -92,12 +92,12 @@ Data yang disembunyikan dapat berupa:
 
  Membuat Steganografi yang Berisikan Pesan Rahasia Berupa Nama dan Nim
 
- ![gambar](/Tugas%205/gambar/Gambar%20Stegonografi%201.png)
+ ![gambar](/Tugas%206/gambar/Gambar%20Stegonografi%201.png)
 
- ![gambar](/Tugas%205/gambar/Gambar%20Stegonografi%202.png)
+ ![gambar](/Tugas%206/gambar/Gambar%20Stegonografi%202.png)
 
  output
 
- ![gambar](/Tugas%205/gambar/show_stego%20hasil.png)
+ ![gambar](/Tugas%206/gambar/show_stego%20hasil.png)
 
  Dapat dilihat bahwa pada gambar 1 dan gambar 2 tidak terdapat perbedaan, padahal pada gambar 2 memuat pesan rahasia berupa text di dalam gambar tersebut.
