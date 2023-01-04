@@ -10,7 +10,7 @@ Berdasarkan ranah (domain) operasinya, metode-metode untuk perbaikan kualitas ci
 
 2. Image enhancement dalam ranah frekuensi.
 
-![gambar](/Tugas%206/gambar/1.png)
+![gambar](/Tugas%207/gambar/1.png)
 
 **Metode dalam Ranah Spasial**
 
@@ -28,7 +28,7 @@ T bisa beroperasi pada satu pixel, sekelompok pixel bertetangga, atau keseluruha
 
 Jadi, metode dalam ranah spasial dapat dilakukan pada aras titik (pixel), aras lokal, dan aras global.
 
-![gambar](/Tugas%206/gambar/2.png)
+![gambar](/Tugas%207/gambar/2.png)
 
 **Proses-proses yang termasuk ke dalam perbaikan kualitas citra:**
 
